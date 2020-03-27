@@ -21,4 +21,4 @@ There are three Stan models:
 * `transmission_probability_reparam_different_means.stan` is a model allowing the mean number of partners per year to differ between men and women (sensitivity analysis).
 * `transmission_probability_reparam_sens_analysis.stan` is a sensitivity analysis to investigate the assumption of random mixing between men and women in the population.
 
-The R scripts apply each of the models to two datasets: the Natsal-2 study from England and the three NHANES surveys conducted in the US between 2009 and 2013. There are six scripts (three models x two datasets), identified by their filenames which contain both the name of the stan model and the name of the dataset.
+The R scripts apply each of the models to two datasets: the Natsal-2 study from England and the three NHANES surveys conducted in the US between 2009 and 2013. There are six scripts (three models times two datasets), identified by their filenames which contain both the name of the stan model and the name of the dataset.
