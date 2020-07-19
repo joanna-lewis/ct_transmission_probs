@@ -22,3 +22,5 @@ There are three Stan models:
 * `transmission_probability_reparam_sens_analysis.stan` is a sensitivity analysis to investigate the assumption of random mixing between men and women in the population.
 
 The R scripts apply each of the models to two datasets: the Natsal-2 study from England and the three NHANES surveys conducted in the US between 2009 and 2013. There are six scripts (three models times two datasets), identified by their filenames which contain both the name of the stan model and the name of the dataset.
+
+Finally, the script labelled `run_transmission_probability_reparam_natsal2_nonocon.R` contains a sensitivity analysis in which the model was applied to data on the estimated number of new partners without a condom, rather than the reported total number of new partners (regardless of condom use).
